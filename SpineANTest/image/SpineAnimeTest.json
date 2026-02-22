@@ -1,4 +1,4 @@
-{ "skeleton": { "images": "C:/github/LoveTide/Other/SpineANTest/image/" },
+{ "skeleton": { "images": "C:/github/loveTide_Spine2D/SpineANTest/image/" },
 "PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
 "bones": [
 	{ "name": "root" }
@@ -17,7 +17,13 @@
 	{ "name": "RF-2", "bone": "root", "attachment": "RF-2" },
 	{ "name": "LF-1", "bone": "root", "attachment": "LF-1" },
 	{ "name": "LF-2", "bone": "root", "attachment": "LF-2" },
-	{ "name": "Head", "bone": "root", "attachment": "Head" }
+	{ "name": "Head", "bone": "root", "attachment": "Head" },
+	{ "name": "R-play1", "bone": "root", "attachment": "R-play1" },
+	{ "name": "L-play1", "bone": "root", "attachment": "L-play1" },
+	{ "name": "L-play2", "bone": "root", "attachment": "L-play2" },
+	{ "name": "R-play2", "bone": "root", "attachment": "R-play2" },
+	{ "name": "R-play3", "bone": "root", "attachment": "R-play3" },
+	{ "name": "L-play3", "bone": "root", "attachment": "L-play3" }
 ],
 "skins": {
 	"default": {
@@ -62,6 +68,24 @@
 		},
 		"Head": {
 			"Head": { "x": 981, "y": -330, "width": 260, "height": 310 }
+		},
+		"R-play1": {
+			"R-play1": { "x": 741.5, "y": -790, "width": 77, "height": 40 }
+		},
+		"L-play1": {
+			"L-play1": { "x": 1209.5, "y": -790, "width": 77, "height": 40 }
+		},
+		"L-play2": {
+			"L-play2": { "x": 1157.5, "y": -807, "width": 185, "height": 244 }
+		},
+		"R-play2": {
+			"R-play2": { "x": 795.5, "y": -807, "width": 185, "height": 244 }
+		},
+		"R-play3": {
+			"R-play3": { "x": 745, "y": -806.5, "width": 170, "height": 181 }
+		},
+		"L-play3": {
+			"L-play3": { "x": 1221, "y": -806.5, "width": 170, "height": 181 }
 		}
 	}
 },
